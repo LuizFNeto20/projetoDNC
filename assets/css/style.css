@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    top: 8%;
+}
+
+.beer {
+    width: 70%;
+    height: 30%;
+    border-radius: 40px;
+    background-color: #CA7900;
+    text-align: center;
+}
+
+.beer img {
+    position: absolute;
+    top: 27%;
+    right: 44%;
+}
+
+p {
+    margin: 12% 0 0 0;
+    font-size: 45px;
+}
+
+button {
+    width: 10%;
+    background-color: #CA8500;
+    border: #fff 2px solid;
+    font-size: 26px;
+    border-radius: 14px;
+    padding: 0.5%;
+}
+
+button:active {
+    background-color: #9e8044;
+}
